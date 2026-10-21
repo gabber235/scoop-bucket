@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "description": "Rewrite selected text anywhere and review every change",
+    "homepage": "https://github.com/gabber235/GrammarGuard",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gabber235/GrammarGuard/releases/download/v1.0.0/GrammarGuard-windows-x64.zip",
+            "hash": "4f252a4d95ad5fb772d515205771e3468a7146bde2101660abfd6faef90cb91f"
+        }
+    },
+    "extract_dir": "GrammarGuard",
+    "shortcuts": [
+        [
+            "GrammarGuard.exe",
+            "GrammarGuard"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gabber235/GrammarGuard/releases/download/v$version/GrammarGuard-windows-x64.zip"
+            }
+        }
+    }
+}
